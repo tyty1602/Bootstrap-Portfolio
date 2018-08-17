@@ -1,4 +1,3 @@
-
 header {
     height: 100px;
     background:#ffffff;
@@ -10,7 +9,8 @@ h2 {
     border-bottom-style: solid;
     border-color: #777777;
     padding: 40px;
-    height: 40px;
+    height: 20px;
+    font-size: 18px;
 }
 
 .icon {
@@ -27,39 +27,24 @@ body {
   }
 
 
-img 
+  .fixed-bottom
 {
-    height: 85px;
-    Width: 100%;
-    padding: 10px;
-    border-radius: 18px;
-}
-
-input[type=text], select, textarea {
+    position: sticky;
+    left:0; right:0; 
+    bottom: 0;
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    background: #666666;
+    color: #ffffff;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 5px;
 }
 
-input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
-input[type=submit]:hover {
-    background-color: #4aaaa5;
-}
-
-.fa-envelope-open {background: #666666;color: #ffffff; font-size: 25px}
-.fa-facebook {background: #666666;color: #ffffff; font-size: 25px}
-.fa-linkedin {background: #666666;color: #ffffff; font-size: 25px}
-.fa-stack-overflow {background: #666666;color: #ffffff; font-size: 25px}
+.fa-envelope-open {background: #666666;color: #ffffff; font-size: 10px}
+.fa-facebook {background: #666666;color: #ffffff; font-size: 10px}
+.fa-linkedin {background: #666666;color: #ffffff; font-size: 10px}
+.fa-stack-overflow {background: #666666;color: #ffffff; font-size: 10px}
